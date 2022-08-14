@@ -14,7 +14,7 @@ body {
 
 button {
 
-    background-color: #3882f6;
+    background-color: green;
     color: white;
     height: auto;
     width: 120px;
@@ -162,7 +162,7 @@ header h3 {
 
 .action {
 
-    background-color: #3882f6;
+    background-color: green;
     color: white;
     display: flex;
     flex: 1 1 auto;
