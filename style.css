@@ -8,12 +8,22 @@ body {
     
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 button {
 
     background-color: #3882f6;
     color: white;
+    height: auto;
+    width: 120px;
+    border-radius: 10px;
+    padding: 8px;
+    flex: 0 1 auto;
+    border: 0;
+    font-weight: bold;
+   
 }
 
 header {
@@ -23,6 +33,15 @@ header {
     justify-content: space-between;
     color: white;
     background-color: #1f2937;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+
+.headerlinks {
+
+    display: flex;
+    gap: 24px;
 }
 
 .firstcontainer {
@@ -30,13 +49,16 @@ header {
     display: flex;
     background-color: #1f2937;
     color: white;
+    align-items: center;
+    padding: 40px 140px;
+    justify-content: space-between;
 }
 
 .maintext {
 
     display: flex;
     flex-direction: column;
-    margin: 40 50;
+    padding-right: 60px;
 }
 
 #maintext {
@@ -44,12 +66,14 @@ header {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin: 0;
+    padding: 0;
 }
 
 .firstcontainer img {
 
     height: auto;
-    width: 200px;
+    width: 450px;
 }
 
 .secondcontainer {
@@ -57,21 +81,71 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px;
 
+}
+
+.secondcontainer h2 {
+
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .information {
 
     display: flex;
+    align-items: center;
+    gap: 36px;
+    
 }
 
 .infoone, .infotwo, .infothree, .infofour {
     
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .information img {
-    height: auto;
+    height: 200px;
     width: 200px;
+    border-radius: 8px;
 }
+
+.thirdcontainer {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px;
+    
+}
+
+.quote {
+
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+}
+
+.action {
+
+    display: flex;
+    flex: 1;
+}
+
+.actionleft {
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+
+    flex: 1;
+    color: white;
+    background-color: #1f2937;
+}
+
