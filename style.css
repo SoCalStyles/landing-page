@@ -18,11 +18,11 @@ button {
     color: white;
     height: auto;
     width: 120px;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 8px;
     flex: 0 1 auto;
-    border: 0;
     font-weight: bold;
+    border: 0;
    
 }
 
@@ -31,10 +31,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: white;
     background-color: #1f2937;
     padding-left: 140px;
     padding-right: 140px;
+}
+
+header h3 {
+
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 
@@ -42,6 +47,7 @@ header {
 
     display: flex;
     gap: 24px;
+    color: #e5e7eb;
 }
 
 .firstcontainer {
@@ -67,21 +73,31 @@ header {
     color: #f9faf8;
     font-weight: 900;
     margin: 0;
-    padding: 0;
+    padding-bottom: 8px;
+}
+
+.subtext {
+
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 16px;
 }
 
 .firstcontainer img {
 
     height: auto;
     width: 450px;
+    flex: 0 1 0;
 }
 
 .secondcontainer {
 
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px;
+    gap: 32px;
 
 }
 
@@ -89,13 +105,15 @@ header {
 
     font-size: 36px;
     font-weight: bolder;
+    margin: 0;
+    padding: 0;
 }
 
 .information {
 
     display: flex;
-    align-items: center;
-    gap: 36px;
+    gap: 64px;
+    justify-content: space-evenly;
     
 }
 
@@ -104,6 +122,9 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 12px;
+    max-width: 200px;
+    text-align: center;
 }
 
 .information img {
@@ -117,35 +138,65 @@ header {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
-    padding: 100px;
+    padding: 60px 170px;
     
 }
 
 .quote {
 
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 200;
     font-style: italic;
     color: #1f2937;
-    text-align: center;
+    text-align: flex-start;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.benjamin {
+
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .action {
 
+    background-color: #3882f6;
+    color: white;
     display: flex;
-    flex: 1;
+    flex: 1 1 auto;
+    margin: 80px 160px;
+    align-items: center;
+    border-radius: 8px;
+    padding: 40px 80px;
 }
 
 .actionleft {
 
     display: flex;
     flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.actiontop {
+
+    font-weight: bold;
 }
 
 footer {
 
-    flex: 1;
     color: white;
     background-color: #1f2937;
+    padding: 20px;
+    text-align: center;
 }
 
+.bottombutton {
+
+    border: 2px solid white;
+}
